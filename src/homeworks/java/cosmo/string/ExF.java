@@ -8,9 +8,12 @@ package homeworks.java.cosmo.string;
  * <p>
  * Подсказка: используйте метод .replaceFirst() класса String
  */
-public class ExF {
+public class    ExF {
     public static void main(String[] args) {
         String phoneNumber = "89806567890";
+
+        String brbr = phoneNumber.replaceFirst("8","+7");
+        System.out.println(brbr);
 
     }
 }

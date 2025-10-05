@@ -11,5 +11,7 @@ public class ExA {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
 
+        String s = input.replace(" ", "");
+        System.out.println(s);
     }
 }

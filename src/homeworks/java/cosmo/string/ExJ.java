@@ -11,5 +11,17 @@ public class ExJ {
     public static void main(String[] args) {
         String[] input = {"Дом", "Стена", "Машина", "Телефон", "Кот", "Микроволновка", "Деньги", "Яхта" };
 
+        String res = "";
+
+        for (String value : input)
+        {
+            if (value.length() > res.length())
+            {
+                res = value;
+            }
+        }
+
+        System.out.println(res);
+
     }
 }
